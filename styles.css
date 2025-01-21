@@ -1,0 +1,41 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    flex-grow: 1;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#order {
+    text-align: center;
+}
+
+#order img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#order .list-numbered {
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+#order .list-group-item {
+    border: none;
+    padding-left: 0;
+}
